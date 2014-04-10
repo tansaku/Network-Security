@@ -1,6 +1,6 @@
 Feature: Map out users on Network
   As an IT administrator
-  So I can who is on the network
+  So I can see users on the network and run them through a verified users list and spot unverified users
   View the people currently using the network (Wireless and wired)
 
 Scenario: Seeing non compliant users

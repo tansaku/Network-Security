@@ -1,6 +1,8 @@
+#improved based on Professors Advice
+
 Feature: Map Network
   As an IT administrator
-  So I can see the layout of the companies network
+  So I can see the layout of the companies network to see security risks
   I want to map out the local area network
 
 Scenario: Mapping Network
@@ -8,5 +10,5 @@ Scenario: Mapping Network
   And I click on "map network"
   Then I should see All Ip addresses and associated ip addresses AND MAC_ADDRESSES on the LAN
   ALONG WITH All open ports and visible network vulnerabilities
-  in a graphical way 
-  
+  in a graphical way. The reason IT tech would want to see network is to view all security risks
+  For example seeing if there are ports and/or addresses on network that are unverified by IT admin
